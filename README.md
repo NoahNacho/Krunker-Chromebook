@@ -2,28 +2,18 @@
 
 A script to install krunker on chromebooks
 
-## Installation
+## Turning on Linux
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+You must turn on Linux in your settings to install krunker.
+
+go to settings, left column click "Linux (Beta)" and click turn on.
+
+## Installing
+
+Type these commands into the terminal. If a terminal did not open, click the search tool and type Terminal to open one.
 
 ```bash
-pip install foobar
+wget https://github.com/NoahNacho/Krunker-Chromebook/blob/main/Krunker-Install.sh
+chmod +x Krunker-Install.sh
+./Krunker-Install.sh
 ```
-
-## Usage
-
-```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
