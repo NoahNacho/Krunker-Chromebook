@@ -1,31 +1,29 @@
 # Krunker-Chromebook
-In order for you to install krunker on chromebook you must turn on linux in settings.
--
- Go into settings and in the left column: Linux (Beta)
- click: Turn on
-Once you have done that Open a terminal.
--
-If A terminal did not open, Hit the search key and Search "Terminal" to open a new one.
--
-Paste this line into the terminal and press enter:
--
-wget https://github.com/NoahNacho/Krunker-Chromebook/blob/main/Krunker-Install.sh
 
-Once that has completed Paste these commands into the Terminal:
--
-chmod +x Krunker-Install.sh
+A script to install krunker on chromebooks
 
-./Krunker-Install.sh
+## Installation
 
-Once the Install is done you may run ./Krunker in a terminal anytime you want to play.
--
-Soon there will be a desktop Icon added so you do not have to use terminal each time.
--
-you can delete the install script by pasting this command into a terminal:
--
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-rm Krunker-Install.sh
+```bash
+pip install foobar
+```
 
-If you want to remove Krunker Client Copy this command into a terminal:
--
-rm Krunker.AppImage
+## Usage
+
+```python
+import foobar
+
+foobar.pluralize('word') # returns 'words'
+foobar.pluralize('goose') # returns 'geese'
+foobar.singularize('phenomena') # returns 'phenomenon'
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
