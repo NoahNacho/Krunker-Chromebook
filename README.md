@@ -4,10 +4,15 @@ In order for you to install krunker on chromebook you must turn on linux in sett
   click: Turn on
 Once you have done that Open a terminal.
 Paste this line into the terminal and press enter:
+-
 wget https://github.com/NoahNacho/Krunker-Chromebook/blob/main/Krunker-Install.sh
+-
 Once that has completed Paste these commands into the Terminal:
+-
 chmod +x Krunker-Install.sh
+-
 ./Krunker-Install.sh
+-
 Once the Install is done you may run ./Krunker in a terminal anytime you want to play.
 
 
