@@ -23,7 +23,9 @@ Soon there will be a desktop Icon added so you do not have to use terminal each 
 -
 you can delete the install script by pasting this command into a terminal:
 -
+
 rm Krunker-Install.sh
+
 If you want to remove Krunker Client Copy this command into a terminal:
 -
 rm Krunker.AppImage
