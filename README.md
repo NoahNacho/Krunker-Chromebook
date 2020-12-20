@@ -4,11 +4,11 @@ In order for you to install krunker on chromebook you must turn on linux in sett
   click: Turn on
 Once you have done that Open a terminal.
 Paste this line into the terminal and press enter:
--
+
 wget https://github.com/NoahNacho/Krunker-Chromebook/blob/main/Krunker-Install.sh
 -
 Once that has completed Paste these commands into the Terminal:
--
+
 chmod +x Krunker-Install.sh
 -
 ./Krunker-Install.sh
@@ -20,8 +20,11 @@ Soon there will be a desktop Icon added so you do not have to use terminal each 
 
 
 you can delete the install script by pasting this command into a terminal:
-rm Krunker-Install.sh
 
+rm Krunker-Install.sh
+-
 
 If you want to remove Krunker Client Copy this command into a terminal:
+
 rm Krunker.AppImage
+-
