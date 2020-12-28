@@ -1,6 +1,6 @@
 # Krunker-Chromebook
 
-A script to install krunker on chromebooks
+A script to install the official Krunker client on chromebooks.
 
 ## Turning on Linux
 
