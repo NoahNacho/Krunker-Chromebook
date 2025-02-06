@@ -18,7 +18,7 @@ wget https://raw.githubusercontent.com/NoahNacho/Krunker-Chromebook/main/Krunker
 chmod +x Krunker-Install.sh
 ./Krunker-Install.sh
 ```
-You will need to run this command everytime you want to play krunker. A desktop icon configurator is coming soon.
+You will need to run this command everytime you want to play krunker.
 
 ```bash
 ./Krunker.sh
